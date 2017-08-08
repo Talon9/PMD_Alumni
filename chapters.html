@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>&Phi;&Mu;&Delta; - Chapter Info</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../../favicon.ico">
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/navbar-fixed-top.css" rel="stylesheet">
+
+  <script src="js/login.js" type="text/javascript"></script>
+
+  <!-- To include other HTML files, add this next line @@jdubes -->
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+
+  <script src="https://use.fontawesome.com/7e3e34caca.js"></script>
+
+
+</head>
+<style>
+  body {
+    padding-top: 90px;
+  }
+
+  .smli {
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+  }
+
+  .smul {
+    margin: 0;
+    padding: 0;
+  }
+
+.UnivLabel {
+    vertical-align: bottom;
+    text-align: right;
+    color: green;
+}
+.UnivText {
+    padding-top: 2px;
+    padding-left: 12px;
+    color:black;
+    font-size:13pt;
+}
+</style>
+
+<body>
+  <!-- To include the menu, add this next line @@jdubes -->
+  <div w3-include-html="menu.html">
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-1">
+
+        <div class="container=fluid">
+          <div class="row">
+            <!-- Chapter Menu -->
+            <div class="col-lg-12">
+              <ul class="nav nav-stacked" id="accordion1">
+                <li class="panel list-group-item-success"><a data-toggle="collapse" data-parent="#accordion1" href="#GammaLink"><h4>Gamma</h4></a>
+
+                  <ul id="GammaLink" class="collapse smul">
+                    <li class="smli"><a href="#" onclick="GetData(4)">&Gamma;&Alpha; - Alpha</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(5)">&Gamma;&Beta; - Beta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(7)">&Gamma;&Gamma; - Gamma</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(8)">&Gamma;&Delta; - Delta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(23)">&Gamma;&Epsilon; - Epsilon</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(30)">&Gamma;&Psi; - Psi</a></li>
+                  </ul>
+
+                </li>
+                <li class="panel"><a data-toggle="collapse" data-parent="#accordion1" href="#MuLink"><h4>Mu</h4></a>
+
+                  <ul id="MuLink" class="collapse smul">
+                    <li class="smli"><a href="#" onclick="GetData(10)">&Mu;&Alpha; - Alpha</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(12)">&Mu;&Beta; - Beta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(13)">&Mu;&Gamma; - Gamma</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(17)">&Mu;&Delta; - Delta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(18)">&Mu;&Epsilon; - Epsilon</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(26)">&Mu;&Zeta; - Zeta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(28)">&Mu;&Eta; - Eta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(33)">&Mu;&Theta; - Theta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(35)">&Mu;&Iota; - Iota</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(29)">&Mu;&Kappa; - Kappa</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(34)">&Mu;&Lambda; - Lambda</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(36)">&Mu;&Xi; - Xi</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(38)">&Mu;&Omicron; - Omicron</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(32)">&Mu;&Pi; - Pi</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(43)">&Mu;&Rho; - Rho</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(44)">&Mu;&Sigma; - Sigma</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(45)">&Mu;&Tau; - Tau</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(47)">&Mu;&Upsilon; - Upsilon</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(31)">&Mu;&Omega; - Omega</a></li>
+                  </ul>
+
+                </li>
+                <li class="panel"><a data-toggle="collapse" data-parent="#accordion1" href="#NuLink"><h4>Nu</h4></a>
+
+                  <ul id="NuLink" class="collapse smul">
+                    <li class="smli"><a href="#" onclick="GetData(1)">&Nu;&Alpha; - Alpha</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(2)">&Nu;&Beta; - Beta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(3)">&Nu;&Gamma; - Gamma</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(6)">&Nu;&Delta; - Delta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(9)">&Nu;&Epsilon; - Epsilon</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(22)">&Nu;&Zeta; - Zeta Alpha</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(14)">&Nu;&Zeta; - Zeta Beta</a></li>
+
+                    <li class="smli"><a href="#" onclick="GetData(15)">&Nu;&Eta; - Eta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(16)">&Nu;&Theta; - Theta</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(39)">&Nu;&Theta;&Eta; - Theta Eta</a></li>
+
+                    <li class="smli"><a href="#" onclick="GetData(20)">&Nu;&Iota; - Iota</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(21)">&Nu;&Kappa; - Kappa</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(24)">&Nu;&Lambda; - Lambda</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(25)">&Nu;&Xi; - Xi</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(27)">&Nu;&Omicron; - Omicron</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(37)">&Nu;&Pi; - Pi</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(46)">&Nu;&Rho; - Rho</a></li>
+                  </ul>
+
+                </li>
+                <li class="panel"><a data-toggle="collapse" data-parent="#accordion1" href="#PiLink"><h4>Pi</h4></a>
+
+                  <ul id="PiLink" class="collapse smul">
+                    <li class="smli"><a href="#" onclick="GetData(11)">&Pi;&Alpha; - Alpha</a></li>
+                    <li class="smli"><a href="#" onclick="GetData(19)">&Pi;&Beta; - Beta</a></li>
+                  </ul>
+
+                </li>
+                <li class="panel"><a data-toggle="collapse" data-parent="#accordion1" href="#SigmaLink"><h4>Sigma</h4></a>
+
+                  <ul id="SigmaLink" class="collapse smul">
+                    <li class="smli"><a href="#?ch=SA">&Sigma;&Alpha; - Alpha</a></li>
+                    <li class="smli"><a href="#?ch=SB">&Sigma;&Beta; - Beta</a></li>
+                  </ul>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-10">
+        <div class="container=fluid bg-success">
+
+          <div class="row">
+            <div class="col-lg-4">
+              <img id="ChapterLogo" class="center-block" src="\images\ChapterLogo\Sm206\v1_Orange\NuGamma.jpg" />
+            </div>
+
+            <div class="col-lg-4 bg-success">
+              <div id="ChapterTitle" class="center-block">
+                <H1>Nu Gamma</H1>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <img id="UnivLogo" class="center-block" src="\images\ChapterLogo\Universities\NuGamma.png" width=206 height=206 />
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 well">
+            <h4>History and/or description</h4>
+          </div>
+
+          <div class="col-lg-4 well">
+            <!-- Begin Center Panel -->
+            <div class="container-fluid">
+
+              <div class="row">
+                <div class="col-lg-12 well">
+                  <h4>Active Info</h4>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12 well">
+                  <h4>Alumni Info</h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="container=fluid">
+
+              <div class="row">
+                <div class="col-sm">
+                  <table class="table  table-condensed"
+                   style="background:yellow;">
+                    <tr>
+                      <td class="UnivLabel" width="150px">
+                        University Name
+                      </td>
+                      <td>
+                        <p class="UnivText" ID="UnivName">University of Vermont</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="UnivLabel">University Address</td>
+                      <td>
+                       <p class="UnivText"  ID="UnivAddress">123 Main Street<br />Burlington, VT</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="UnivLabel">
+                        University Web Site
+                      </td>
+                      <td>
+                        <p class="UnivText"  ID="UnivWebSite">Web Site</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="UnivLabel">
+                        Year Book Name
+                      </td>
+                      <td>
+                        <p class="UnivText"  ID="YearBook">Year Book</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="UnivLabel">Year Book Site</td>
+                      <td>
+                        <p class="UnivText"  ID="YearBookWebSite">Year Book Web Site</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="UnivLabel">Map</td>
+                      <td>
+                       <p class="UnivText"  ID="UnivMap">Map?</p>
+                      </td>
+                    </tr>
+                  </table>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg-1">
+    <!-- Just some margins on the right -->
+  </div>
+  </div>
+  </div>
+
+  <!-- Footer
+================================================== -->
+  <!-- To include the footer, add this next line @@jdubes -->
+  <div w3-include-html="smfoter.html"></div>
+  <script>
+    w3.includeHTML();
+  </script>
+
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>');
+  </script>
+  <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+
+  <script src="js/chapters.js"></script>
+
+</body>
+
+</html>
